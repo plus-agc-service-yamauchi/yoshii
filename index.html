@@ -1,50 +1,65 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="stylesheet" href="dist/css/bootstrap.css">
-	<link rel="stylesheet" href="dist/css/sidebar.css">
-	<title>Sidebar</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/sidebar.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>吉井造花店</title>
 </head>
 
 <body>
-
-<header>
-	<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-
-		<!-- title -->
-		<a class="navbar-brand" href="#">Sidebar navigation</a>
-
-		<!-- sidebar toggle -->
-		<button class="navbar-toggler btn btn-link border-0" type="button" id="sidebar" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-	</nav>
-</header>
-
-<div class="d-flex wrapper wrapper-navbar-used wrapper-navbar-fixed">
-<div class="container-fluid">
-
-		<!-- content -->
-		<main role="main"></main>
-	</div>
-	<nav role="navigation" class="sidebar sidebar-bg-light" id="navigation">
-
-		<!-- sidebar -->
-		<div class="sidebar-menu">
-			<div class="sidebar-menu-fixed"></div>
-		</div>
-	</nav>
-
-	
-</div>
-
-<!-- javascript library -->
-<script src="js/jquery.js"></script>
-<script src="js/bootstrap.bundle.js"></script>
-<script src="dist/js/sidebar.js"></script>
-
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light bg-white fixed-top shadow-sm">
+            <!-- title -->
+            <a class="navbar-brand" href="#">吉井造花店</a>
+            <!-- sidebar toggle -->
+            <button class="navbar-toggler btn btn-link border-0" type="button" id="sidebar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </nav>
+    </header>
+    <div class="d-flex wrapper wrapper-navbar-used wrapper-navbar-fixed">
+        <div class="container-fluid p-0">
+            <!-- content -->
+            <main role="main">
+                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100 h-100" src="img/top_slide_1.png" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="img/top_slide_1.png" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="img/top_slide_1.png" alt="Third slide">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">前へ</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">次へ</span>
+                    </a>
+                </div>
+            </main>
+        </div>
+        <nav role="navigation" class="sidebar sidebar-bg-light" id="navigation">
+            <!-- sidebar -->
+            <div class="sidebar-menu">
+                <div class="sidebar-menu-fixed"></div>
+            </div>
+        </nav>
+    </div>
+    <!-- javascript library -->
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/sidebar.js"></script>
 </body>
+
 </html>
