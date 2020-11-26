@@ -1,0 +1,63 @@
+/*PC右ナビゲーション*/
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 999999;
+    top: 0;
+    right: 0;
+    background-color: #f8f9fa;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 90px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+/*Common*/
+.text-main {
+    color: #256643;
+}
+
+.bg-main {
+    background: #f5f7f6;
+}
+
+.btn-outline-main {
+    color: #376446;
+    border-color: #376446;
+}
+
+.btn-outline-main:hover {
+    color: #fff;
+    background-color: #376446;
+    border-color: #376446;
+}
