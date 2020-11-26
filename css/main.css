@@ -4877,7 +4877,7 @@ input[type=button].btn-block {
 
 .navbar-light .navbar-toggler {
     color: rgba(0, 0, 0, 0.5);
-    border-color: rgba(0, 0, 0, 0.1);
+    /*border-color: rgba(0, 0, 0, 0.1);*/
 }
 
 .navbar-light .navbar-toggler-icon {
@@ -10924,7 +10924,7 @@ a.text-dark:focus {
 }
 
 body {
-    padding-top: 3.375rem;
+    /*padding-top: 3.375rem;*/
     color: #6c757d;
 }
 
