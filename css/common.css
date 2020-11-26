@@ -70,10 +70,25 @@
     max-width: 100%;
 }
 
-.footer-logo{
-  width:25%;
+.footer-logo {
+    width: 25%;
 }
 
-.bg-cream{
-  background:#fffdf5;
+.bg-cream {
+    background: #fffdf5;
+}
+
+/*トップ重なり部分*/
+.content1 {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    z-index: 2;
+}
+
+.content2 {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    z-index: 1;
 }
