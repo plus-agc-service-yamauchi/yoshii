@@ -51,6 +51,10 @@
     background: #f5f7f6;
 }
 
+.bg-main-dark {
+    background: #e8eeeb;
+}
+
 .btn-outline-main {
     color: #376446;
     border-color: #376446;
@@ -60,4 +64,16 @@
     color: #fff;
     background-color: #376446;
     border-color: #376446;
+}
+
+.mw-100 {
+    max-width: 100%;
+}
+
+.footer-logo{
+  width:25%;
+}
+
+.bg-cream{
+  background:#fffdf5;
 }
