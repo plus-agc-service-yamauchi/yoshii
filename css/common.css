@@ -234,3 +234,8 @@
         // cssプロパティをここに記述
     }   
 }
+
+#top_head_bg{
+    background:url(../assets/img/top_head_bg.png) no-repeat;
+    background-size:100%;
+}
